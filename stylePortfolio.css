@@ -6,5 +6,5 @@ nav {
 
 }
 .darker {
-  background: linear-gradient(to bottom, #03045e, #0096c7)
+  background: linear-gradient(to bottom, #03045e 0%, #0096c7 100%)
 }
