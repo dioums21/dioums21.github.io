@@ -2,218 +2,248 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+    crossorigin="anonymous">
     <title>Mamadou Diallo - My journey so far...</title>
     <link rel="stylesheet" href="stylePortfolio.css">
   </head>
-  <body>
-    <header>
-
-      <div id="topstyle">
-        <nav>
-          <ul>
-            <li>Me</li>
-            <li>Education</li>
-            <li>Skills</li>
-            <li>Work History</li>
-            <li>Contact</li>
-          </ul>
-        </nav>
-      </div>
-      <br>
-      <br>
+  <body style="padding-top:200px">
+    <nav id="topstyle">
       <div class="melogo">
-        <img src="dioums2.png">
+        <img src="dioums2.png" id="logo">
       </div>
-    </header>
-    <main>
-      <div class="">
-        <h3>Hello, World! I am Mamadou Diallo...</h3>
-        <div class="">
-          <p>I was born in Guinea (West Africa), precisely in Kamsar. In short, I
-            am a very passionate and dedicated professional who loves to get
-            things done. I love building applications and programming them along
-            to do meaningful actions. I also enjoy building websites and making
-            them look nice with my own CSSs and JavaScript without the use of any
-             frameworks for the sake of practicing and I also admire working on
-             the little things that slowly brings up the finished product.
-             But I also have experience working with frameworks such as
-             ASP.NET MVC, .Net platform (Core included),
-             Bootstrap, and many more. Other than that, I have worked as a
-             Team Lead and Supervisor for a Valet company where I had to manage
-             teams of about 25 max, depending on the size of the event.
-             I have also worked as Residence Concierge, for the past 7 years,
-             at prestigious places such as The Four Seasons Hotels and Resorts
-             in Toronto and The Ayer Condominiums in Philadelphia, where I was
-             also a Concierge Lead and took on my Manager role when he was not
-             on site. This page that I have created will further emphasize on my
-           journey.</p>
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active text-secondary text-decoration-none" href="#justme">Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-secondary text-decoration-none" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-secondary text-decoration-none" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-secondary text-decoration-none" href="#workhistory">Work History</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-secondary text-decoration-none" href="#contact">Contact</a>
+          </li>
+        </ul>
+    </nav>
+    <div class="">
+      <h3 id="justme">Hello, World! I am Mamadou Diallo...</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p>I was born in Guinea (West Africa), precisely in Kamsar. In short, I
+              am a very passionate and dedicated professional who loves to get
+              things done. I love building applications and programming them along
+              to do meaningful actions. I also enjoy building websites and making
+              them look nice with my own CSSs and JavaScript without the use of any
+               frameworks for the sake of practicing and I also admire working on
+               the little things that slowly brings up the finished product.
+               But I also have experience working with frameworks such as
+               ASP.NET MVC, .Net platform (Core included),
+               Bootstrap, and many more. Other than that, I have worked as a
+               Team Lead and Supervisor for a Valet company where I had to manage
+               teams of about 25 max, depending on the size of the event.
+               I have also worked as Residence Concierge, for the past 7 years,
+               at prestigious places such as The Four Seasons Hotels and Resorts
+               in Toronto and The Ayer Condominiums in Philadelphia, where I was
+               also a Concierge Lead and took on my Manager role when he was not
+               on site. This page that I have created will further emphasize on my
+             journey.</p>
+          </div>
+          <div class="col">
+            <img src="kamcity.png" width="100%" alt="kamsar">
+          </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="" style="margin-top: 20px">
+      <h3 id="education">Education</h3>
+      <div class="container" style="margin-top: 20px">
+        <div class="row">
+          <div class="col align-self-center">
+            <h4>Centennial College -  Toronto, ON</h4>
+            <br> <h5><i>Software Engineering Technician Sept. 2019 - Apr. 2021</i></h5>
+            <br> <h5><i>Current GPA: 4.26 / 4.5</i></h5>
+          </div>
+          <div class="col">
+            <div class="row">
+              <figure>
+                <a href="https://github.com/dioums21/BankingWithConsole" target="_blank">
+                  <img src="banking.jpg" alt="bankingwithconsole">
+                  <figcaption>Banking w/ Console</figcaption>
+                </a>
+              </figure>
+            <p>Built a program for a given user to be able deposit
+              into account, select saving plans and/or stocks available
+               and get an overview of account based on own assets.</p>
+            </div>
+
+            <div class="row">
+              <figure>
+                <a href="https://github.com/dioums21/RealtorPage" target="_blank">
+                  <img src="realtor.jpg" alt="realtor">
+                  <figcaption>Realtor Profile</figcaption>
+                </a>
+              </figure>
+            <p>Developed a website, for a real estate agent, consisting
+               of 7 pages that showcased short biography, customer
+               feedbacks, available properties and listings, site map
+                and credit page.</p>
+            </div>
+
+            <div class="row">
+              <figure>
+                <a href="https://github.com/comp231-S4G3/DineOut" target="_blank">
+                  <img src="dineout2.png" alt="dineout">
+                  <figcaption>DineOut Web App</figcaption>
+                </a>
+              </figure>
+            <p>Dine Out is a web application that will help restaurants
+               increase revenue by providing a safer dining environment
+                and reducing the number of staff needed to run the front
+                 of house. Customers will be able to create their
+                 profiles and scan a specific QR code
+                 (specific to the restaurant) on their dining table and
+                  order at will while the whole experience is
+                  contactless and safe.</p>
+            </div>
+      </div>
+    </div>
+      <div class="container" style="margin-top: 20px">
+        <div class="row">
+          <div class="col align-self-center">
+            <h4>SchoolCraft College - Livonia, MI (USA)</h4>
+            <br> <h5><i>Associate Degree in Engineering Sept. 2007 - Dec. 2009</i></h5>
+            <br> <h5><i>Current GPA: 3.6 / 4</i> </h5>
+          </div>
+
+          <div class="col align-self-center">
+            <button type="button" class="btn btn-secondary" name="Transcipts">Transcripts</button>
+          </div>
         </div>
       </div>
+    </div>
+  </div>
 
-      <div class="">
-        <h3>Education</h3>
-        <div class="">
-          <table>
-            <tr>
-              <th>Centennial College -  Toronto, ON
-              <br> <i>Software Engineering Technician Sept. 2019 - Apr. 2021</i>
-              <br> <i>Current GPA: 4.26 / 4.5</i> </th>
-              <td>
-                <table>
-                  <tr>
-                    <th>Projects</th>
-                    <th>Relevant Documents</th>
-                  </tr>
-                  <tr>
-                    <td>
-                      <figure>
-                        <a href="https://github.com/dioums21/BankingWithConsole">
-                          <img src="banking.jpg" alt="bankingwithconsole">
-                          <figcaption>Banking w/ Console</figcaption>
-                        </a>
-                      </figure>
-                    </td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <figure>
-                        <a href="https://github.com/dioums21/RealtorPage">
-                          <img src="realtor.jpg" alt="realtor">
-                          <figcaption>Realtor Profile</figcaption>
-                        </a>
-                      </figure>
-                    </td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <figure>
-                        <a href="https://github.com/comp231-S4G3/DineOut">
-                          <img src="dineout.png" alt="dineout">
-                          <figcaption>DineOut Web App</figcaption>
-                        </a>
-                      </figure>
-                    </td>
-                    <td></td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-          </table>
+  <div class="">
+    <h3 id="skills">Skills</h3>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h5> <b>Operating Systems</b> </h5>
         </div>
-
-        <div class="">
-          <table>
-            <tr>
-              <th>SchoolCraft College - Livonia, MI (USA)
-              <br> <i>Associate Degree in Engineering Sept. 2007 - Dec. 2009</i>
-              <br> <i>Current GPA: 3.6 / 4</i> </th>
-              <td>
-                <table>
-                  <tr>
-                    <th>Relevant Documents</th>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-          </table>
+        <div class="col">
+          <h5> <b>Programming Languages</b> </h5>
         </div>
       </div>
-
-      <div class="">
-        <h3>Skills</h3>
-        <div class="">
-          <table>
-            <tr>
-              <th>Operating Systems</th>
-              <th>Programming Languages</th>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-            </tr>
-
-            <tr>
-              <th>IDE Softwares</th>
-              <th>Frameworks</th>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-            </tr>
-
-            <tr>
-              <th>Database Management</th>
-              <th>Project Management</th>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-            </tr>
-
-            <tr>
-              <th colspan="2">Others</th>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-            </tr>
-          </table>
+      <div class="row">
+        <div class="col">
+          <h5> <b>IDE Softwares</b> </h5>
+        </div>
+        <div class="col">
+          <h5> <b>Frameworks</b> </h5>
         </div>
       </div>
-
-      <div class="">
-        <h3>Work History</h3>
-        <div class="">
-          <table>
-            <tr>
-              <th>
-                Four Seasons Hotels & Resorts (Residences) -  Toronto, ON
-                <br> <i>Residence Concierge Jan. 2018 - Present</i>
-              </th>
-              <td></td>
-            </tr>
-            <tr>
-              <th>
-                Ayer Condominiums -  Philadelphia, PA (USA)
-                <br> <i>Residence Concierge Sept. 2012 - Jan. 2017</i>
-              </th>
-              <td></td>
-            </tr>
-            <tr>
-              <th>
-                Royal Valet, Inc. – Philadelphia, PA (USA)
-                <br> <i>Team Lead/Supervisor Apr. 2011 - Sept. 2014</i>
-              </th>
-              <td></td>
-            </tr>
-          </table>
+      <div class="row">
+        <div class="col">
+          <h5> <b>Database Management</b> </h5>
+        </div>
+        <div class="col">
+          <h5> <b>Project Management</b> </h5>
         </div>
       </div>
+    </div>
+  </div>
 
-      <div class="">
-        <h3>Contact</h3>
+  <div class="">
+    <h3 id="workhistory">Work History</h3>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h5>Four Seasons Hotels & Resorts (Residences) -  Toronto, ON</h5>
+          <h6><i>Residence Concierge Jan. 2018 - Present</i></h6>
+          <h5>The Ayer Condominiums -  Philadelphia, PA (USA)</h5>
+          <h6><i>Residence Concierge Sept. 2012 - Jan. 2017</i></h6>
+        </div>
+        <div class="col">
+          <p>Proactively accommodating residents’ requests and day-to-day
+            lives including reservations (restaurants, limos, getaways),
+            mail pickup and delivery, coordination of services from both
+            the Hotel and third parties. Handling requests promptly such
+            as contractor’s visits and special demands. Sending daily report
+             to staff members in order to keep the team up to date.</p>
+        </div>
       </div>
-    </main>
-
-
-    <footer>
-      <div class="">
-        &copy; 2020 Mamadou Diallo
+      <div class="row" style="margin-top:20px">
+        <div class="col">
+          <h5>Royal Valet, Inc. – Philadelphia, PA (USA)</h5>
+          <h6><i>Team Lead/Supervisor Apr. 2011 - Sept. 2014</i></h6>
+        </div>
+        <div class="col">
+          <p>Directing team members strategically in order to park and
+            return customers’ vehicles in a timely manner. Managing large
+            team during major events in order to ensure successful guest
+            experience.</p>
+        </div>
       </div>
-    </footer>
+    </div>
+  </div>
+
+  <div class="">
+    <h3 id="contact">Contact</h3>
+    <div class="container">
+      <div class="row">
+        <div class="col align-self-center text-center">
+          <a href="https://www.linkedin.com/in/mamadou-diallo-7a818b130" target="_blank">
+            <img src="linkedinlogo.png" alt="LinkedIn" width="50" height="auto">
+          </a>
+        </div>
+        <div class="col text-center">
+          <p class="text-center"><b>Email</b></p>
+          <p>
+            dioums.diallo@gmail.com
+          </p>
+        </div>
+        <div class="col align-self-center text-center">
+          <a href="https://github.com/dioums21" target="_blank">
+            <img src="githublogo.png" alt="GitHub" width="50" height="auto">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer style="padding-top: 50px">
+    <div class="text-center">
+      &copy; 2020 Mamadou Diallo - All Rights Reserved.
+    </div>
+  </footer>
 <script>
 // When the user scrolls down 50px from the top of the document, resize the header's font size
-window.onscroll = function() {scrollFunction()};
+  window.onscroll = function() {scrollFunction()};
 
-function scrollFunction() {
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-    document.getElementById("topstyle").style.fontSize = "15px";
-  } else {
-    document.getElementById("topstyle").style.fontSize = "25px";
+  function scrollFunction() {
+    var logo = document.getElementById("logo");
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+      document.getElementById("topstyle").style.fontSize = "10px";
+      logo.style.width = "50px";
+    } else {
+      document.getElementById("topstyle").style.fontSize = "20px";
+      logo.style.width = "100px";
+    }
   }
-}
+</script>
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+  crossorigin="anonymous">
 </script>
   </body>
 </html>
